@@ -37,3 +37,10 @@
     
     console.log(randomNumber1);
     console.log(randomNumber2);
+
+    // footer
+    var cpYear = document.getElementById("cp-date");
+    var d = new Date();
+    var year = d.getFullYear()
+
+    cpYear.innerHTML = year;
